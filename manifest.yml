@@ -1,6 +1,8 @@
 ---
+# We have created a temporary app in the gallery
+# We have created a delivery pipeline
 applications:
+# We have reserved a name/route for your app
 - name: cf-spring
-  memory: 512M
-  instances: 1
-  random-route: true
+  host: cf-spring
+  domain: kunal.domain.com.sitikantha.stacktest.io
